@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ficheros</string>
+    <string name="btnMemInterna">Excribir en m. interna</string>
+    <string name="btnMemExterna">Excribir en m. externa</string>
+    <string name="btnLeerFicheros">Leer ficheros</string>
+    <string name="btnCodificacion">Codificación</string>
+</resources>

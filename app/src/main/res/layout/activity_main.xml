@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ficheros.MainActivity">
+
+    <Button
+        android:id="@+id/btnMemInterna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMemInterna"
+        android:layout_marginTop="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnMemExterna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/btnMemExterna"
+        android:layout_below="@+id/btnMemInterna"
+        android:layout_alignStart="@+id/btnMemInterna" />
+
+    <Button
+        android:id="@+id/btnLeerFicheros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnMemInterna"
+        android:layout_below="@+id/btnMemExterna"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/btnLeerFicheros" />
+
+    <Button
+        android:id="@+id/btnCodificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="@string/btnCodificacion"
+        android:layout_below="@+id/btnLeerFicheros"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
